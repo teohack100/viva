@@ -1,0 +1,29 @@
+{
+"inbounds": [
+{
+"port": 8080,
+"protocol": "vless",
+"settings": {
+"clients": [
+{
+"id": "84737bc8-7c5b-4140-b549-a23a63747e46",
+"level": 0
+}
+],
+"decryption": "none"
+},
+"streamSettings": {
+"network": "ws",
+"wsSettings": {
+"path": "/programmit"
+}
+}
+}
+],
+"outbounds": [
+{
+"protocol": "freedom",
+"settings": {}
+}
+]
+}
